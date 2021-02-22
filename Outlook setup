@@ -1,0 +1,5 @@
+type regedit on windwos
+go to path Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Setup
+right click : new --> DWORD (32-bit) Value and give file name to DisableOffice365SimplifiedAccountCreation
+Set value data --> 1
+Now open Outlook and go IMAP / POP email setting and add coniguration Outgoing SMTPS - 465 & Incoming SECURE_IMAP - 993 along with email credentials 
